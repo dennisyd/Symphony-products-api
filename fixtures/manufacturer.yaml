@@ -1,0 +1,6 @@
+App\Entity\Manufacturer:
+  manufacturer_{1..10}:
+    name: <company()>
+    description: <text()>
+    countryCode: <countryCode()>
+    listDate: <dateTime()>
